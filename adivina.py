@@ -41,8 +41,8 @@ def adivina_la_palabra(palabra_exitosa):
     else:
         print("Agotaste tus intentos. La palabra era " + palabra_exitosa)
 
-palabras_clave = ["anual","anole","anoto","apios","apipa"]
-palabra_exitosa = palabras_clave[random.randint(0, len(palabras_clave) - 1)];
+palabras_clave = ["anual","anole","anoto","apios","apipa","anoel","appia"]
+palabra_exitosa = palabras_clave[random.randint(0, len(palabras_clave) - 1)]
 
 adivina_la_palabra(palabra_exitosa)
 
